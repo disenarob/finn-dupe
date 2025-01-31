@@ -1,0 +1,51 @@
+@import './global.css';
+
+.main-menu ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin:0;
+    justify-content: right;
+    gap:20px;
+}
+li{
+    margin-right: 10px;
+    font-size:20px;
+    text-decoration:none;
+}
+.nav-link{
+    text-decoration:none;
+    color:var(--main-text-color);;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+.main-menu{
+    padding-top: 20px;
+    padding-bottom:20px;
+    max-width: var(--maximum-width);
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.active-menu-item{
+color:#0170b9;
+}
+
+.main-menu-title{
+    font-weight: 600;
+    font-size: 30px;
+    color:var(--main-text-color);
+}
+.main-menu-title a{
+    color:var(--main-text-color);
+    text-decoration: none;
+}
+
+.menu-container{
+    border-bottom: 1px solid rgb(202, 202, 209);
+}
